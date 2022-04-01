@@ -1,0 +1,27 @@
+@import '@/layouts/variaveis.scss';
+
+.page{
+  background-color: #E5E5E5;
+  min-height: 88.5vh;
+  width: 100%;
+
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+}
+.content-block{
+  background-color: $background-color-component;
+  width: auto;
+  height: auto;
+  min-width: 60%;
+  min-height: 60vh;
+  padding: 2rem;
+  max-width: 80%;
+}
+table, th, td {
+  // border:1px solid black;
+}
+table {
+  table-layout: fixed;
+}

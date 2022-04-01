@@ -1,0 +1,18 @@
+@import '@/layouts/variaveis.scss';
+
+.page{
+  background-color: #E5E5E5;
+  min-height: 88.5vh;
+  width: 100%;
+
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+}
+.content-block{
+  background-color: $background-color-component;
+  width: auto;
+  height: auto;
+  padding: 2rem;
+}
